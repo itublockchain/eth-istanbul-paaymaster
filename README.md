@@ -19,3 +19,6 @@ Benefits
 
 
 pAAymaster is not just a payment solution; it's a catalyst for advancing Web3 transactions. With its innovative approach to fee coverage and user incentives, Paymaster is poised to make a significant impact on the world of decentralized finance.
+
+This project utilizes Zksync's paymaster contracts and interfaces to set a limit of 0.5 ETH on deposit transactions made on Syncswap.
+
