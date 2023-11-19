@@ -1,51 +1,21 @@
-# zkSync Hardhat project template
 
-This project was scaffolded with [zksync-cli](https://github.com/matter-labs/zksync-cli).
+pAAymaster
 
-## Project Layout
+Empowering Web3 Payments
 
-- `/contracts`: Contains solidity smart contracts.
-- `/deploy`: Scripts for contract deployment and interaction.
-- `/test`: Test files.
-- `hardhat.config.ts`: Configuration settings.
+pAAmaster, a solution in the world of Web3 payments. Imagine making transactions on the web where, for purchases exceeding a certain amount, additional fees, like shipping costs during online shopping, are covered by the contract. Paymaster steps in to handle transaction fees for instance, transactions larger than 0.5 ETH, promoting both user engagement and facilitating larger transactions.
 
-## How to Use
+Key Features
 
-- `npm run compile`: Compiles contracts.
-- `npm run deploy`: Deploys using script `/deploy/deploy.ts`.
-- `npm run interact`: Interacts with the deployed contract using `/deploy/interact.ts`.
-- `npm run test`: Tests the contracts.
+- *Incentivizing Transactions:* Paymaster encourages users to engage in more significant transactions by covering additional fees, fostering a user-friendly experience.
+- Encourage users to elevate their experience by covering additional fees for transactions beyond a set threshold.
+- *Gas Fee Coverage:* For transactions exceeding 0.5 ETH, Paymaster steps in to handle gas fees, ensuring a smooth and cost-effective process.
 
-Note: Both `npm run deploy` and `npm run interact` are set in the `package.json`. You can also run your files directly, for example: `npx hardhat deploy-zksync --script deploy.ts`
+Benefits
 
-### Environment Settings
+- *User Motivation:* Encourages users to participate in more substantial transactions by offering fee coverage, creating a win-win situation for both users and businesses.
+- *Gas Fee Relief:* Provides relief to users involved in larger transactions by taking care of the gas fees, promoting a smoother and more accessible transaction process.
+- By actively participating in gas fee coverage and incentivizing larger transactions, Paymaster contributes to the growth of the decentralized finance (DeFi) ecosystem. This not only benefits individual users but also enhances the Total Value Locked (TVL) of the decentralized exchange (dex) it operates with, contributing to the overall progress of DeFi.
 
-To keep private keys safe, this project pulls in environment variables from `.env` files. Primarily, it fetches the wallet's private key.
 
-Rename `.env.example` to `.env` and fill in your private key:
-
-```
-WALLET_PRIVATE_KEY=your_private_key_here...
-```
-
-### Network Support
-
-`hardhat.config.ts` comes with a list of networks to deploy and test contracts. Add more by adjusting the `networks` section in the `hardhat.config.ts`. To make a network the default, set the `defaultNetwork` to its name. You can also override the default using the `--network` option, like: `hardhat test --network dockerizedNode`.
-
-### Local Tests
-
-Running `npm run test` by default runs the [zkSync In-memory Node](https://era.zksync.io/docs/tools/testing/era-test-node.html) provided by the [@matterlabs/hardhat-zksync-node](https://era.zksync.io/docs/tools/hardhat/hardhat-zksync-node.html) tool.
-
-Important: zkSync In-memory Node currently supports only the L2 node. If contracts also need L1, use another testing environment like Dockerized Node. Refer to [test documentation](https://era.zksync.io/docs/tools/testing/) for details.
-
-## Useful Links
-
-- [Docs](https://era.zksync.io/docs/dev/)
-- [Official Site](https://zksync.io/)
-- [GitHub](https://github.com/matter-labs)
-- [Twitter](https://twitter.com/zksync)
-- [Discord](https://join.zksync.dev/)
-
-## License
-
-This project is under the [MIT](./LICENSE) license.
+pAAymaster is not just a payment solution; it's a catalyst for advancing Web3 transactions. With its innovative approach to fee coverage and user incentives, Paymaster is poised to make a significant impact on the world of decentralized finance.
